@@ -25,4 +25,5 @@ far = 100.0
 [node name="UI" parent="." instance=ExtResource( 2 )]
 margin_top = 1.0
 margin_bottom = 1.0
+cameraSpeed = 5
 
