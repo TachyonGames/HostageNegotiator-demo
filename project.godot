@@ -18,6 +18,8 @@ _global_script_class_icons={
 config/name="HN"
 run/main_scene="res://Scenes/world.tscn"
 run/low_processor_mode=true
+boot_splash/image="res://finch.png"
+boot_splash/fullsize=false
 config/icon="res://icon.png"
 
 [display]
