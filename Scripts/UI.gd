@@ -66,3 +66,11 @@ func _on_MoveLeft_mouse_exited():
 
 func _on_MoveRight_mouse_exited():
 	moveCamera = false
+
+# Show the large phone
+func _on_Phone_pressed():
+	get_node('Phone_Big').show()
+
+# Close the phone
+func _on_Button_pressed():
+	get_node('Phone_Big').hide()
